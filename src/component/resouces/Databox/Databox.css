@@ -1,0 +1,80 @@
+.data{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 200px;
+    max-width: 200px;
+  overflow: inherit;
+    display: block;
+    border: rgba(28, 67, 126, 7) 2px solid;
+    padding: 5px;
+
+}
+
+.dataHeader{
+    color: rgba(28, 67, 126, 7);
+}
+.headercontent{
+    width: 195px;
+    
+   position: relative;
+    
+}
+
+.dot{
+    position: absolute;
+    left: 170px;
+    top: 0;
+    font-size: 20px !important;
+}
+
+
+
+/* small circle */
+.cirs{
+    background-color:rgba(28, 67, 126, 7) !important;
+    width: 34px !important;
+    height: 20px !important;
+}
+.adds{
+    font-size: 20px !important;
+}
+
+.newdata{
+    display: flex;
+    flex-direction: row;
+   
+}
+.newdata p{
+    margin-right: 67px;
+    opacity: 0.7;
+    font-size: 15px;
+   
+}
+
+.dynamicData{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.emptyc{
+   
+    margin-right: 5px;
+}
+.editer{
+   
+    margin-left: 3px;
+}
+p.pdata{
+    margin-top: 0 !important;
+    width: 200px;
+    overflow: hidden;
+    
+}
+.compelet{
+    color:  rgb(55, 189, 90);
+    margin-left: 5px;
+    font-size: 15px;
+}

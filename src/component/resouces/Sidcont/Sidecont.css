@@ -1,0 +1,52 @@
+.mobody{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.deldiv{
+position: absolute;
+top: 0;
+right: 0;
+
+}
+.clodiv{
+    top: 0;
+    left: 0;
+   
+}
+
+
+.ttar{
+    margin-top: 20px;
+}
+/* .ttar[type=text]{
+    border: none;
+    background-color: lightslategray;
+}
+.ttar[type=text]:focus{
+    outline: none;
+} */
+textarea { 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto; 
+    background-color: darkgray; 
+    border-radius: 2px;      
+  }
+  textarea:focus{
+      outline: 0;
+  }
+  .popheader{
+      color: blue;
+      font-size: 15px;
+      margin-top: 0 !important;
+  }
+  .adddate{
+    color: blue; 
+    font-size: 15px;
+  }
+  .swift{
+    color: blue; 
+    font-size: 13px; 
+  }

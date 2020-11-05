@@ -1,0 +1,50 @@
+
+.login{
+    
+    display: flex;
+    flex-direction: column;
+
+
+   
+}
+
+.header{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.fotter{
+    display: flex;
+    flex-direction: row;
+   
+    width: 32%;
+    /* flex: content;
+    align-content: space-between; */
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+.bd{
+    margin-top: 100px;
+}
+
+.but{
+    color:rgba(28, 67, 126, 7);
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+}
+.ftp{
+   font-size: 13px;
+ left: 30px;
+  position: absolute;
+}
+.forgot{
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    font-size: 13px;
+
+}

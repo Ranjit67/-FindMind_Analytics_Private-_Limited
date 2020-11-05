@@ -1,0 +1,53 @@
+/* manu circle */
+.cirf{
+    background-color:rgba(28, 67, 126, 7) !important;
+}
+.addf{
+    font-size: 40px !important;
+}
+.iconer{
+    position: absolute;  
+    bottom: 10px;
+    right: 10px;
+}
+#transition-modal-title{
+    display: flex;
+    flex-direction: row;
+    height: 20px !important;
+    width: 180px !important;
+    position: relative !important;
+}
+.cirt{
+    background-color:rgba(28, 67, 126, 7) !important;
+    width: 34px !important;
+    height: 20px !important;
+}
+.addt{
+    font-size: 20px !important;
+}
+
+
+
+.mpl{
+    font-size: 20px;
+    position: absolute !important;
+
+  margin-top: 0 !important;
+}
+
+.mpl input[type=text]{
+    background-color: none;
+   border-color: transparent;
+   
+}
+
+.mpl input[type=text]:focus{
+   
+    outline: none;
+  
+}
+.mci{
+    position: relative;
+    left: 150px;
+   height: 40px;
+}
