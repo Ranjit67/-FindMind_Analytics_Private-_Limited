@@ -109,6 +109,10 @@ handleCloser=(e,m)=>{
           profile : res.data.download_url
         })
       })
+      .catch((err)=>{
+        console.log(err);
+        return <p>Somethig going wrong. Please check yje internet.</p>
+      })
       
     }
 

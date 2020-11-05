@@ -117,7 +117,10 @@ const [title,setTitle] =  useState();
         open={props.reg.regulate}
         onClose={()=>{
           modalBody=null;
-          props.modtaker(v,d,props.reg.numbIndex);
+          if(props.reg.numbIndex){
+            props.modtaker(v,d,props.reg.numbIndex); //this line is onle woke for databox
+          }
+          
                  props.cl(false,props.reg.vender);
         }}
         closeAfterTransition
